@@ -1,0 +1,63 @@
+*{
+    margin-top: 20px;
+    margin-left: 100px
+  }
+  
+  .donors-table{
+    border-collapse: collapse;
+    margin: 25px 0px;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+  }
+  
+  .donors-table thead tr{
+    background-color: #009879;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .donors-table th, .donors-table td{
+    padding: 12px 15px;
+  
+  }
+  
+  .donors-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .donors-table tbody tr:nth-of-type(even){
+    background-color: rgba(118, 206, 244, 0.201);
+  }
+  
+  .donors-table tbody tr:nth-of-type(odd){
+    background-color: rgba(240, 240, 172, 0.315);
+  }
+  
+  .donors-table tbody tr:last-of-type{
+    border-bottom: 2px solid  #009879;
+  }
+
+.head{
+    display: flex;
+}
+
+.head #head-p{
+    float: left;
+    margin-left: 100px;
+
+}
+.head #head-s{
+
+    float: right;
+    
+    margin-left: 280px;
+    height: 40px;
+}
+
+.head #head-s::placeholder{
+    font-size: 20px;
+}

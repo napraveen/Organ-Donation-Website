@@ -1,0 +1,75 @@
+<!-- {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/certstyle.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <script src="{% static 'js/script.js' %}"></script>
+</head>
+<body>
+    {% if user.is_authenticated %}
+    <div id="certification">
+        <h1 id="head" onclick="download()">CERTIFICATE OF DONATION</h1>
+        <p id="head-p">This certifies that</p>
+        {%for person in persons%}
+        {%if person.name == user.username %}
+        <h1 id="r-name">{{person.name}}</h1>
+        <p id="sub">ON BEHALF OF </p>
+        <p id="det">HAS PLEDGED TO DONATE {{person.organ_pledged}}</p>
+        <h3 id="org-name">BE KIND</h3>
+        <h3 id="sign">Team BEKIND</h3>
+        <p id="date">Date</p><p id="cert-date">{{person.date}}</p>
+        {% endif %}
+        {%endfor%}
+    </div>
+    {%endif%}
+</body>
+</html> -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/certstyle.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <script src="{% static 'js/script.js' %}"></script>
+</head>
+<body onclick="download()">
+    {% if user.is_authenticated %}
+    <div id="certification">
+        <h1 id="head" >CERTIFICATE OF DONATION</h1>
+        <p id="head-p">This certifies that</p>
+        {%for person in persons%}
+        {%if person.username == user.username %}
+        <h1 id="r-name">{{person.name}}</h1>
+        <p id="sub">ON BEHALF OF </p>
+        <p id="det">HAS PLEDGED TO DONATE {{person.organ_pledged}}</p>
+        <h3 id="org-name">BE KIND</h3>
+        <h3 id="sign">Team BEKIND</h3>
+        <p id="date">Date</p><p id="cert-date">{{person.date}}</p>
+        {% endif %}
+        {%endfor%}
+    </div>
+    {%endif%}
+</body>
+</html>
+
+<script>
+    function download()
+    {
+        window.print();
+    }
+</script>

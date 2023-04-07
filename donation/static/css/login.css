@@ -1,0 +1,113 @@
+html{
+    height: 100%;
+    width:100%;
+    
+}
+body{
+    /* background-image: url('/static/img/logback.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 1000px 600px;
+    margin: 0px; */
+    height: 100%;
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    background-image: url('/static/img/logback.jpg');
+    backdrop-filter: blur(2px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed    ;
+    position: relative;
+   
+}
+#first{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 30%;
+}
+.forms{
+    margin:0;
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+    animation: left 1s ease-in;
+    position: relative;
+}
+button{
+    background-color: rgb(7, 56, 99);
+    width: 38%;
+    color:aliceblue;
+    padding: 8px;
+
+    border:none;
+    cursor: pointer; 
+    opacity: 0.8; 
+}
+input[type=text], input[type=password]{
+    width:100%;
+    margin:3px 0px;
+    padding: 3px;
+    display: inline-block;
+    border: 1.5px solid #942b89;
+    box-sizing:content-box;
+    border-radius: 10px;
+}
+input[type=text]:hover{
+    padding: 5px;
+}
+input[type=password]:hover{
+        padding:5px;
+    }
+button:hover{
+    opacity: 0.7;
+    background-color: rgb(33, 26, 236);
+    padding:10px;
+}
+header{
+    position: fixed;
+    height:25px;
+    width:100%;
+    text-align: center;
+    top:10;
+    left:0;
+    color: #f1f1f1;
+    background-color: black;
+}
+#inside{
+    padding: 25px;
+    background-color:rgb(249, 213, 141,0.5) ;
+    border-radius: 15px;
+    backdrop-filter: blur(1.5px);
+    animation: left 3s infinite;
+}
+#second{
+    border:2px solid rgb(255, 194, 80);
+    width: 100%;
+    height: 30%;
+    margin-left: 0;
+    margin-top: 550px;
+    background-color: black;
+}
+.head{
+    text-decoration: underline;
+    color:azure;
+    font: arial;
+    
+}
+
+@keyframes left {
+    0%{
+       
+        background-color: rgba(255, 207, 110, 0.557);
+    }
+    33%{
+        
+        background-color: rgba(251, 186, 57, 0.5);
+    }
+    100%{
+        
+        background-color: rgba(203, 136, 2, 0.5);
+    }
+}

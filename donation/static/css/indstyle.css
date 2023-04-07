@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+*{
+    margin-top: 0px;
+    margin: 0px;
+}
+
+.bg-outer{
+    background-color: white;
+    height: 567px;
+    width: 1280px;
+    position: absolute;
+}
+
+.inner-top{
+
+    margin-top:40px;
+}
+
+.inner-top, ul{
+    display: flex;
+}
+
+ul{
+    list-style: none;
+    margin-left: 550px;
+
+}
+
+ul li{
+    margin-right: 70px;
+    
+    color: rgba(0, 0, 0, 0.614);
+}
+
+#login{
+    width: 110px;
+    height: 30px;
+    background-color: rgb(239, 152, 193);
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: -8px;
+
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 25px;
+    margin-top: -20px;
+}
+
+#web-name{
+    margin-left: 11px;
+    margin-top: -10px;
+    font-size: 23px;
+    color:rgb(238, 88, 158);
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+    
+}
+
+#body-img{
+    margin-left: 80px;
+    margin-top: 28px;
+    height: 360px;
+    width: 490px;
+    display: flex;
+}
+
+
+#topic{
+    margin-top: -270px;
+    margin-left: 750px;
+    font-size: 50px;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 100;
+}
+
+#desc{
+    
+    margin-top: 20px;
+    margin-left: 750px;
+}
+a{
+    
+    color: rgb(129, 122, 122);
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgba(154, 146, 146, 0.137);
+    width: 100%;
+    height: 60px;
+    margin-top: 160px;
+}
+
+#foot{
+    padding-top: 20px;
+    margin-left: 380px;
+    
+}
+
+#register{
+    width: 110px;
+    height: 30px;
+    background-color: rgb(181, 230, 181);
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-top: -8px;
+}

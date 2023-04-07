@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap');
+
+*{
+    margin-left: 120px;
+}
+body{
+    background-image: url('/static/img/certificate-border.jpg') ;
+    background-repeat: no-repeat;
+    background-size: 1000px 600px;
+    margin: 0px;
+}
+#certification{
+    margin-top: 140px;
+}
+#head{
+    margin-right: 100px;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(210, 210, 12);
+    margin-top: 150px;
+}
+#head-p{
+    margin-left: 300px;
+    margin-top: -10px;
+}
+
+#r-name{
+    margin-left:300px;
+    margin-top: px;
+}
+
+#sub{
+    margin-left: 300px;
+}
+
+#det{
+    margin-left: 250px;
+}
+
+#org-name{
+    margin-left: 300px;
+}
+
+
+#sign{
+    margin-top: 30px;
+}
+#date{
+    margin-left: 570px;
+    margin-top:-40px;
+}
+
+#cert-date{
+    margin-left: 530px;
+}

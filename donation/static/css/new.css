@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+}
+
+.left{
+    height: 569px;
+    width: 450px;
+    background-color: yellow;
+}
+
+body{
+    background-color: white;
+}
+
+#whole{
+    display: flex;
+}
+
+.lgin{
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+input{
+    font-size: 23px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgba(152, 206, 239, 0.208);
+}
+
+input::placeholder{
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+label{
+    font-size: 20px;
+}
+
+#name{
+    margin-left: 100px;
+    
+}
+
+#email{
+    margin-left: 100px;
+}
+
+#mobileno{
+    margin-left: 60px;
+}
+
+#city{
+    margin-left: 115px;
+}
+
+#gender{
+    margin-left: 90px;
+}
+
+#organpl{
+    margin-left: 30px;
+}
+
+#bloodgr{
+    margin-left: 45px;
+}
+
+#log-img{
+    margin-top: 100px;
+    margin-left: 140px;
+    border-radius: 50%;
+}
+
+h3{
+    margin-top: 50px;
+    margin-left: 120px;
+
+}
+
+#p1{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+#p2{
+    margin-left: 110px;
+}
+
+#submit{
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: rgb(8, 247, 147);
+}
+
+#submit{
+    font-size: 25px;
+    
+}
